@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: auto;
+    margin:auto;
+}
+
+header h1{
+    font-size: 50px;
+}
+.name-hightlight{
+    color: orange;
+}
+.helf-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:5% ;
+    padding-top: 5%;
+}
+.helf-width img{
+    width: 100%;
+}
+button{
+    background-color: rgb(255, 174, 0);
+    border-radius: 10px;
+}
