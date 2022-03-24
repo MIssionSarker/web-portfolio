@@ -1,8 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
-    padding: auto;
-    margin:auto;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 700;
 }
+
+/*top banner*/
 
 header h1{
     font-size: 50px;
@@ -14,13 +17,84 @@ header h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left:5% ;
-    padding-top: 5%;
+    padding-left:5%;
+    padding-top: 100px;
 }
 .helf-width img{
+    width: 87%;
+}
+.button{ 
+    background-image:linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 4px;
+    display: inline-block;
+}
+.button a{
+    text-decoration: none;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(./devoloper-protfoli/top-banner.png);
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px; 
+    padding-bottom: 150px;
+}
+
+
+/*middle banner*/
+
+
+
+div.helf-width2 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 5%;
+}
+div.helf-width2 img{
     width: 100%;
+    margin-right: 50px;
 }
-button{
-    background-color: rgb(255, 174, 0);
-    border-radius: 10px;
+div.half-width2 h3{
+    font-size: 40px;
 }
+div.half-width2 h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+div.button2{
+    background-image:linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 4px;
+    display: inline-block;
+}
+div.button2 a{
+    text-decoration: none;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+section.middle-banner{
+    background-image: url(./devoloper-protfoli/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+
+ /*last banner*/
+div.half-width3{}
+div.half-width3 h1{}
+div.half-width3 h3{}
+div.half-width3 p{}
+
+
+
+
+
+
+
+
