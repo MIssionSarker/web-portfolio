@@ -21,7 +21,7 @@ header h1{
     padding-top: 100px;
 }
 .helf-width img{
-    width: 87%;
+    width: 100%;
 }
 .button{ 
     background-image:linear-gradient(45deg, lightsalmon, tomato);
@@ -42,6 +42,8 @@ header h1{
 section {
     height: 500px; 
     padding-bottom: 150px;
+    padding-right: 5%;
+
 }
 
 
@@ -53,11 +55,12 @@ div.helf-width2 {
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-right: 5%;
+    padding-right: 233px;
 }
 div.helf-width2 img{
     width: 100%;
     margin-right: 50px;
+    padding-left: 50px;
 }
 div.half-width2 h3{
     font-size: 40px;
@@ -86,10 +89,58 @@ section.middle-banner{
  }
 
  /*last banner*/
-div.half-width3{}
-div.half-width3 h1{}
-div.half-width3 h3{}
-div.half-width3 p{}
+ .single{
+     padding-left: 5%;
+     margin-left: 5%;
+     font-size: 35px;
+ }
+ div.helf-width3 {
+    width: 38%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 3%;
+    color: black;
+}
+
+div.half-width3 h1{
+
+}
+div.helf-width3 h3{
+    color: orange;
+    font-weight: 700;
+}
+div.half-width3 p{
+
+}
+.single-experience{
+    box-shadow:  10px 10px 40px grey;
+    border-radius: 5px; 
+    height: 80%;
+    background-color: white;
+
+}
+
+.last-banner{
+    background-image: url(./devoloper-protfoli/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#side-bar1{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(238, 134, 65), tomato );
+    border-image-slice: 1;
+}
+#sider-bar2{
+    border-left: 5px solid;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: large;
+    
+}
 
 
 
